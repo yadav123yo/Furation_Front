@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Select, HStack } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { getBooksbyFilter } from "../Redux/Books/books.Action";
+import { getBooksbyFilter } from "../Redux/Books/action";
 
 const FilterComponent = () => {
   const [selectedCategory, setSelectedCategory] = useState("");

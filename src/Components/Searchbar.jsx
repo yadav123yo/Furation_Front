@@ -19,7 +19,7 @@ import {
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import { getSearchBooks } from "../Redux/Books/books.Action";
+import { getSearchBooks } from "../Redux/Books/action";
 
 export const Searchbar = () => {
   const [query, setQuery] = useState("");

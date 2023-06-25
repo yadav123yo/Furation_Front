@@ -10,7 +10,7 @@ import {
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { addItemToCart } from "../Redux/Cart/cart.Action";
+import { addItemToCart } from "../Redux/Cart/action";
 
 const BookCard = ({ book }) => {
   const dispatch = useDispatch();

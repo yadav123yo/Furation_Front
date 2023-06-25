@@ -14,12 +14,12 @@ import {
   UPDATE_CART_ITEMS_ERROR,
   UPDATE_CART_ITEMS_LOADING,
   UPDATE_CART_ITEMS_SUCCESS,
-} from "./cart.ActionType";
+} from "./actionType";
 
 export const getCartItems = () => async (disptach) => {
   disptach({ type: GET_CART_ITEMS_LOADING });
   try {
-    let res = axios.get("http://localhost:8080/cartItems");
+    let res = axios.get("https://fair-cyan-zebra-wear.cyclic.app/cartItems");
     disptach({ type: GET_CART_ITEMS_SUCCESS, payload: res.data });
   } catch (error) {
     disptach({ type: GET_CART_ITEMS_ERROR });

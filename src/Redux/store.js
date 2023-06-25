@@ -8,10 +8,10 @@ import thunk from "redux-thunk";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
-import { authReducer } from "./Auth/Auth.reducer";
-import { bookReducer } from "./Books/books.reducer";
-import { cartReducer } from "./Cart/cart.Reducer";
-import { orderReducer } from "./Order/order.Reducer";
+import { authReducer } from "./Auth/reducer";
+import { bookReducer } from "./Books/reducer";
+import { cartReducer } from "./Cart/reducer";
+import { orderReducer } from "./Order/reducer";
 
 const rootReducer = combineReducers({
   auth: authReducer,

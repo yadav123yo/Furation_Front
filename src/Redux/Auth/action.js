@@ -6,9 +6,9 @@ import {
   LOG_IN_SUCCESS,
   LOG_OUT_SUCCESS,
   SIGN_UP_SUCCESS,
-} from "./Auth.actionType";
+} from "./actionType";
 
-const baseURL = "http://localhost:8080/user";
+const baseURL = "https://fair-cyan-zebra-wear.cyclic.app/user";
 
 //sign in
 export const signUp = (creds) => async (dispatch) => {

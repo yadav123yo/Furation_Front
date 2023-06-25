@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import BookLists from "../Components/BookLists";
 import { useDispatch, useSelector } from "react-redux";
-import { getBooks } from "../Redux/Books/books.Action";
+import { getBooks } from "../Redux/Books/action";
 
 const Home = () => {
   const [allBookData, setBookData] = useState([]);

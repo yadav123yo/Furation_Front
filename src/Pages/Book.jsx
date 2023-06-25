@@ -10,8 +10,8 @@ import {
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { getBookDetail } from "../Redux/Books/books.Action";
-import { addItemToCart } from "../Redux/Cart/cart.Action";
+import { getBookDetail } from "../Redux/Books/action";
+import { addItemToCart } from "../Redux/Cart/action";
 
 const BookDetails = () => {
   const { id } = useParams();

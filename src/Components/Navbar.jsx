@@ -13,7 +13,7 @@ import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useLocation } from "react-router-dom";
-import { logout } from "../Redux/Auth/Auth.action";
+import { logout } from "../Redux/Auth/action";
 import { Searchbar } from "./Searchbar";
 import FilterComponent from "./FilterComponent";
 

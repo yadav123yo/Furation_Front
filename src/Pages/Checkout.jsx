@@ -23,9 +23,9 @@ import {
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { AddIcon } from "@chakra-ui/icons";
-import { addOrderItems } from "../Redux/Order/order.Action";
+import { addOrderItems } from "../Redux/Order/action";
 import { useNavigate } from "react-router-dom";
-import { cartRest } from "../Redux/Cart/cart.Action";
+import { cartRest } from "../Redux/Cart/action";
 
 const initialAddress = {
   city: "",

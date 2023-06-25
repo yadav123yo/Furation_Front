@@ -1,7 +1,7 @@
 import { CloseButton, Grid, Image, Text, useToast } from "@chakra-ui/react";
 import React from "react";
 import { useDispatch } from "react-redux";
-import { removeMoveOrderItem } from "../Redux/Order/order.Action";
+import { removeMoveOrderItem } from "../Redux/Order/action";
 
 const OrderCard = ({ item }) => {
   const dispatch = useDispatch();

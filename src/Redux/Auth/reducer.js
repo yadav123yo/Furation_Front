@@ -4,7 +4,7 @@ import {
   LOG_IN_SUCCESS,
   LOG_OUT_SUCCESS,
   SIGN_UP_SUCCESS,
-} from "./Auth.actionType";
+} from "./actionType";
 
 // Note: Do not update/change the initial state
 
