@@ -14,7 +14,7 @@ import {
   GET_SEARCH_BOOKS_SUCCESS,
 } from "./actionType";
 
-const baseURL = "https://fair-cyan-zebra-wear.cyclic.app/book";
+const baseURL = "https://witty-puffer.cyclic.app/book";
 
 export const getBooks = () => async (dispatch) => {
   dispatch({ type: GET_BOOKS_LOADING });

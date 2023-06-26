@@ -58,14 +58,14 @@ const BookDetails = () => {
     return <Box>Book not found.</Box>;
   }
   return (
-    <Box mt={"80px"} p={4} justifyContent={"center"} alignItems={"center"}>
+    <Box ml={"20%"} mt={"100px"} p={4} justifyContent={"center"} alignItems={"center"}>
       <Stack spacing={4} direction={{ base: "column", md: "row" }}>
         <Image
           src={singleBook.image}
           alt={singleBook.title}
           maxW={{ base: "100%", md: "300px" }}
         />
-        <Box>
+        <Box mt={'20%'} mb={"5px"} >
           <Heading as="h2" size="lg">
             {singleBook.title}
           </Heading>
@@ -86,7 +86,7 @@ const BookDetails = () => {
               isLoading={cartLoading}
               isDisabled={cartData.find((item) => item._id === newItem._id)}
               loadingText="Add to Cart"
-              width="full"
+              width="100px"
               p={4}
               borderRadius="lg"
               colorScheme="red"
